@@ -26,6 +26,8 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
+  width: 100%;
 }
 
 footer {
@@ -35,29 +37,37 @@ footer {
 /* Navigation Bar / Header 
 --------------------------------*/
 .nav {
-  display: flexbox;
-  border: 1px solid #00fed0;  
+  display: flexbox;  
 }
 .nav_leftside {
   display: flex;
+  width: 50%;
   flex-direction: row;
   overflow: auto;
   float: left;
-  border: 1px solid #42df;
+  margin-top: 20px;
+}
+.nav_leftside_div0 {
+  width: 17%;
+  padding-left: 12px;
+}
+.nav_leftside_div {
+  padding: 5px 0 0 12px;
 }
 .nav_rightside {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   overflow: auto;
   float: right;
-  border: 1px solid #42df;
+  margin: 18px 15px 0 0;
 }
 .nav_arraymenu {
+  float: right;
   width: 35%;
-  border: 1px solid #000ff0;
+  padding-right: 8px;
 }
 .nav_signin {
-  border: 1px solid #555555;
+  
 }
 /* Hides the 'gmail' and 'images' anchor needed for larger viewports*/
 .nav_mobilehide {
