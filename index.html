@@ -1,10 +1,9 @@
-<!----------------------------------------------------------------->
-<!-- This file structures the UI for the google-homepage project -->
-<!---- The google-homepage project is an HTML/CSS project from ---->
-<!---- the Web Development 101 course on The Odin Project --------->
-<!---- So, yeah chill, no programming languages need to be used --->
-<!---- He-Yump! --------------------------------------------------->
-<!----------------------------------------------------------------->
+<!--------------------------------------------------------------------
+* This file structures the UI for the google-homepage project. 
+*   The google-homepage project is an HTML/CSS project from 
+*   the Web Development 101 course on The Odin Project. 
+* So, yeah chill, no programming languages need to be used He-Yump!
+---------------------------------------------------------------------->
 
 <!DOCTYPE html>
 
@@ -18,6 +17,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css"> <!--Just linking the css file, chill-->
     </head>
-    <body></body>
+    <body>
+            <!--pseudo links-->
+        <div class="nav">
+            <div class="nav_leftside">
+                    <div class="nav_sandmenu"><img src="images/sandwich-menu.png"></div>
+                    <div><a href="#">ALL</a></div>
+                    <div><a href="#">IMAGES</a></div>
+            </div>
+                
+            <div class="nav_rightside">
+                    <div><a class="nav_mobilehide" href="#Gmail">Gmail</a></div>
+                    <div><a class="nav_mobilehide" href="#Images">Images</a></div>
+                    <div><a href="#AppsIcon"><img class="nav_arraymenu" src="images/array-menu.png"></a></div>
+                    <div><a class="nav_signin" href="#Profile"><button type="submit">Sing In</button></a></div>
+            </div>
+                
+        </div>
+
+        <!--main 'content' of the google-homepage-->
+        <div id="search_box" class="center">
+            <img class="mainlogo" src="images/google-logo-sml.png">
+
+            <div class="searchcontainer">
+
+                <form action="">
+                    <input type="text" placeholder="Search.." name="search">
+
+                    <button type="submit">
+                        <!--I got this from google's real homepage by inspecting element.
+                        It's the search icon for the input field-->
+                        <i class="searchicon">
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                            </svg>
+                        </i> 
+                    </button>
+                </form>
+            </div>
+
+            <!--I just screenshot the google homepage and ripped them off in a way... not really they're fake links for a fake webpage-->  
+            <ul class="belowinput">
+                <li><a href="#Cloud"><img src="images/leftside.jpg"></a></li> <!--pseudo link-->
+                <li><a href="#Play"><img src="images/rightside.jpg"></a></li> <!--pseudo link-->
+                </ul>
+        </div>    
+
+        <footer>
+            <div class="location">
+                <span class="locwidget">&#8226;</span>
+                <label for="locwidget" class="locwidgetlabel">Unknown</label>
+            </div>
+                 
+            <p class="locexplain">- Use precise location</p>
+        </footer>
+        
+    </body>
 
 </html>
