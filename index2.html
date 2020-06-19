@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--This framework is for any search engine page, although it emulates google.com-->
+<html>
+    <head>
+        <title>Google</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Project replica of the Google homepage with only html and css">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="author" content="Renzino">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="stylesheet" type="text/css" href="/fontawesome/all.css">
+    </head>
+    <body>
+        <header></header>
+        <div class="wrapper">
+            <div class="container">
+                <!--Nav bar-->
+                <div class="navbar">
+                    <div class="navbar_sandmenu"><img src="images/burger-menu.png"></div>
+                    <div class="navbar_current"><a href="#"">ALL</a></div>
+                    <div class="navbar_images"><a href="">IMAGES</a></div>
+                    <div class="navbar_gmail"><a href="">Gmail</a></div>
+                    <div class="navbar_arraymenu"><img src="images/array-menu.png"></div>
+                    <div class="navbar_signin"><button type="submit">Sign In</button></div>
+                </div>
+                <!--Main logo-->
+                <div class="logo">
+                    <div class="logo_g"><img src="images/google-logo-sml.png"></div>
+                </div>
+                <!--Search bar-->
+                <div class="search">
+                    <form action="/action_page.php">
+                        <input class="search_input" type="text" placeholder="Just Google it..." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <!--shortcut directories-->
+                <div class="shortcuts">
+                    <div class="shortcuts_icons">
+                        <div class="shortcuts_weather"><a href=""><img src="images/weather.jpg"></a></div>
+                        <div class="shortcuts_sports"><a href=""><img src="images/sports.jpg"></a></div>
+                        <div class="shortcuts_whatwatch"><a href=""><img src="images/whatwatch.jpg"></a></div>
+                        <div class="shortcuts_restaurants"><a href=""><img src="images/restaurants.jpg"></a></div>
+                    </div>
+                    <div class="shortcuts_labels">
+                        <div class="shortcuts_weather"><a href="">Weather</a></div>
+                        <div class="shortcuts_sports"><a href="">Sports</a></div>
+                        <div class="shortcuts_whatwatch"><a href="">What to Watch</a></div>
+                        <div class="shortcuts_restaurants"><a href="">Restaurants</a></div>
+                    </div>
+                </div>
+                <!--GPS tracker acting as footer-->
+                <div class="gps">
+                    <div class="gps_locate">
+                        <div class="gps_locate_widget"><button type="radio"></button></div>
+                        <label for="gps_locate_widget" class="gps_locate_widgetlabel">- Sunnyvale, CA</label></div>
+                    <div class="gps_describe"><p>...I see you</p></div>
+                </div>
+            </div>
+        </div>    
+        <footer></footer>
+    </body>
+</html>
