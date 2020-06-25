@@ -1,5 +1,5 @@
 /*
-This is iteration *2/5* 
+This is iteration *1/5* 
 from my personal 5 step design process for any 
 webpage/website I try to develop. My 5 step design 
 process is normally my starting point when deciding 
@@ -7,16 +7,12 @@ an idea or project is something I'd like to try and
 deploy.For more explanation behind my process, go 
 ahead and check out the README file on this github repo.
 
-Iteration *2/5*:Place(building the structure)
-    : ensuring our content stays within the confines of 
-      their parent container
------------------------------------------------------------------
-- Legend: "[empty comment]" = new from previous                 - 
--         " (+) " = added a property to an existing element     -
--         " (-) " = deleted a property from an existing element -
------------------------------------------------------------------
+Iteration *1/5*:Layout(our blueprint & foundation)
+    : setting our foundation properties, visualizing our sections
+    and placing them within the desired area of our viewport 
 */
-html, body {
+
+html, body {/*foundation properties*/
     background-color: #fffaf4; 
     color: #424242;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,21 +20,14 @@ html, body {
     font-weight: 300;
     line-height: 1.5;
     height: 100vh;
-   }
-*{
+}
+*{/*foundation properties*/
     font-family: inherit;
     line-height: inherit;
     text-decoration: none;
     color: inherit;
     padding: 0;
     margin: 0;
-}
-/**/
-/*This keeps the image in it's parent container/div*/
-img{
-    object-fit: cover;
-    width: 100%;
-    height: inherit;
 }
 #container{
     display: block;
@@ -54,6 +43,7 @@ img{
     /*non-essentials*/
     background-color: khaki;
 }
+/*This keeps the navbar at the top of the viewport*/
 #navbar{
     position: absolute;
     top: 0;
@@ -62,16 +52,6 @@ img{
 
     /*non-essentials*/
     background-color: lavender;
-}
-/**/
-/*Keeps it to the left of the navbar*/
-.navbar_left{
-    float: left;
-}
-/**/
-/*Keeps it to the right of the navbar*/
-.navbar_right{
-    float: right;
 }
 #logo{
     display: block;
@@ -88,14 +68,14 @@ img{
     text-align: center;
     background-color: mediumaquamarine;
 }
-/* (+) */
 #shortcuts{
-    margin: 20px 70px 200px 70px; /*Adding the extra bottom margin to the lowest div only, will also push up all the other divs above it without affecting the gaps between them*/
+    margin: 20px 70px;
 
     /*non-essentials*/
     text-align: center;
     background-color: lightseagreen;
 }
+/*This keeps the footerlinks at the bottom of the viewport*/
 #footerlinks{
     position: absolute;
     bottom: 0;
@@ -104,14 +84,4 @@ img{
 
     /*non-essentials*/
     background-color: lightsteelblue;
-}
-/**/
-/*Keeps it to the left of the footer*/
-.footerlinks_left{
-    float: left;
-}
-/**/
-/*Keeps it to the right of the footer*/
-.footerlinks_right{
-    float: right;
 }

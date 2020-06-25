@@ -1,5 +1,5 @@
 <!--
-This is iteration *2/5* 
+This is iteration *3/5* 
 from my personal 5 step design process for any 
 webpage/website I try to develop. My 5 step design 
 process is normally my starting point when deciding 
@@ -7,11 +7,8 @@ an idea or project is something I'd like to try and
 deploy.For more explanation behind my process, go 
 ahead and check out the README file on this github repo.
 
-Iteration *2/5*:Place(building the structure)
-    : adding all of our content we intend to have in each section
------------------------------------
-Legend: " * " = new from previous -
------------------------------------
+Iteration *3/5*:Style(putting in the details)
+    : for HTML, no change for this project, but go check the CSS
 -->
 
 <!DOCTYPE html>
@@ -23,26 +20,26 @@ Legend: " * " = new from previous -
         <meta name="keywords" content="HTML, CSS">
         <meta name="author" content="Renzino">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style5.css">
+        <link rel="stylesheet" type="text/css" href="style6.css">
         <link rel="stylesheet" type="text/css" href="/fontawesome/all.css">
     </head>
     <body>
         <div id="container">
             <div id="viewport">
                 <div id="navbar">
-                    <div class="navbar_left"><!--*-->
+                    <div class="navbar_left">
                         <a href=#>About</a>
                         <a href=#>Store</a>
                     </div>
-                    <div class="navbar_right"><!--*-->
+                    <div class="navbar_right">
                         <a href=#>Gmail</a>
                         <a href=#>Images</a>
-                        <a href=#><i class="fas fa-th"></i></a>
-                        <a href=#><i class="fas fa-grin-tongue-wink"></i></a>
+                        <a class="navbar_righticon" href=#><i class="fas fa-th"></i></a>
+                        <a id="navbar_righticon_wink" class="navbar_righticon" href=#><i class="fas fa-grin-tongue-wink"></i></a>
                     </div>
                 </div>
                 <div id="logo">
-                    <div class="logo_img"><!--*-->
+                    <div class="logo_img">
                         <img src="images/google-logo-lrg.png">
                     </div>
                 </div>
@@ -52,17 +49,17 @@ Legend: " * " = new from previous -
                         <input class="searchform_input" type=search results=5 placeholder="Just Google it..." name=s><!--*-->
                     </div>
                     <div id="shortcuts"><!--*-->
-                            <button type="submit">Google Search</button>
+                            <button for="searchform_input" type="submit">Google Search</button>
                             <button type="submit">I'm Feeling Lucky</button>
                     </div>
                 </form>
                 <div id="footerlinks">
-                    <div class="footerlinks_left"><!--*-->
+                    <div class="footerlinks_left">
                         <a href=#>Advertising</a>
                         <a href=#>Business</a>
                         <a href=#>How Search Works</a>
                     </div>
-                    <div class="footerlinks_right"><!--*-->
+                    <div class="footerlinks_right">
                         <a href=#>Privacy</a>
                         <a href=#>Terms</a>
                         <a href=#>Settings</a>

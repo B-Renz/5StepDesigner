@@ -1,5 +1,5 @@
 /*
-This is iteration *2/5* 
+This is iteration *4/5* 
 from my personal 5 step design process for any 
 webpage/website I try to develop. My 5 step design 
 process is normally my starting point when deciding 
@@ -7,20 +7,23 @@ an idea or project is something I'd like to try and
 deploy.For more explanation behind my process, go 
 ahead and check out the README file on this github repo.
 
-Iteration *2/5*:Place(building the structure)
-    : ensuring our content stays within the confines of 
-      their parent container
+Iteration *4/5*:Refine(making sure everything is as desired, 
+                no matter the viewport)
+    : adding visual refinements 
+    : checking all viewports 
+    : adding medias if necessary
 -----------------------------------------------------------------
 - Legend: "[empty comment]" = new from previous                 - 
 -         " (+) " = added a property to an existing element     -
 -         " (-) " = deleted a property from an existing element -
 -----------------------------------------------------------------
 */
+
 html, body {
     background-color: #fffaf4; 
     color: #424242;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
+    font-size: small;
     font-weight: 300;
     line-height: 1.5;
     height: 100vh;
@@ -33,12 +36,15 @@ html, body {
     padding: 0;
     margin: 0;
 }
-/**/
-/*This keeps the image in it's parent container/div*/
 img{
     object-fit: cover;
     width: 100%;
     height: inherit;
+}
+/**/
+/*This styles the input text while typing within the input*/
+input[type="search"]{
+    text-align: center;
 }
 #container{
     display: block;
@@ -50,68 +56,97 @@ img{
     justify-content: center;
     width: 100%;
     height: 100vh;
-
-    /*non-essentials*/
-    background-color: khaki;
 }
 #navbar{
     position: absolute;
     top: 0;
     display: block;
     width: 100%;
-
-    /*non-essentials*/
-    background-color: lavender;
 }
-/**/
-/*Keeps it to the left of the navbar*/
 .navbar_left{
     float: left;
+    padding: 26px 0 10px 10px;
 }
-/**/
-/*Keeps it to the right of the navbar*/
+.navbar_left>a{
+    padding-left: 8px;
+}
 .navbar_right{
     float: right;
+    padding: 10px;
+}
+.navbar_right>a{
+    padding-right: 8px;
+}
+.navbar_righticon{
+    font-size: 26px;
 }
 #logo{
     display: block;
-    margin: 40px;
-
-    /*non-essentials*/
-    text-align: center;
-    background-color: lightblue;
+    justify-content: center;
+    max-width: 410px;
+    margin: 0 auto;
 }
 #searchform{
-    margin: 30px;
-
-    /*non-essentials*/
+    display: block;
+    justify-content: center;
+    max-width: 550px;
+    margin: 0 auto;
+    width: 100%;
+}
+#searchform>i{
+    position: absolute;
+    padding: 10px 0 0 12px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+/* (+) ; (-) */
+.searchform_input{
+    padding: 10px;
+    border-style: none;
+    border-radius: 45px 45px 45px 45px;
+    width: 100%;
+    box-shadow: rgb(192, 192, 192) 0 2px 12px;/**/
+}
+/**/
+.searchform_input::placeholder{
     text-align: center;
-    background-color: mediumaquamarine;
+    font-style: italic;
+}
+/**/
+.searchform_input:focus{
+    outline: none;
+    box-shadow: rgb(192, 192, 192) 0 2px 12px;
+}
+#shortcuts{
+    margin: 20px 70px 200px 70px;
+    text-align: center;
 }
 /* (+) */
-#shortcuts{
-    margin: 20px 70px 200px 70px; /*Adding the extra bottom margin to the lowest div only, will also push up all the other divs above it without affecting the gaps between them*/
-
-    /*non-essentials*/
-    text-align: center;
-    background-color: lightseagreen;
+#shortcuts>button{
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #ffffff;
+    box-shadow: rgb(192, 192, 192) 0 2px 12px;/**/
 }
+/* (+) */
 #footerlinks{
     position: absolute;
     bottom: 0;
     display: block;
     width: 100%;
-
-    /*non-essentials*/
-    background-color: lightsteelblue;
+    background-color: #e7e2d2;/**/
 }
-/**/
-/*Keeps it to the left of the footer*/
 .footerlinks_left{
     float: left;
 }
-/**/
-/*Keeps it to the right of the footer*/
+.footerlinks_left>a{
+    padding-left: 10px;
+}
 .footerlinks_right{
     float: right;
+}
+.footerlinks_right>a{
+    padding-right: 10px;
 }
