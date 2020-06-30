@@ -135,26 +135,28 @@ CSS
 </tr>
 </table>
 
-*Special reference: [How to Display Two Markdown Code-Blocks Side-by-Side](https://stackoverflow.com/questions/35381425/how-to-disply-two-markdown-code-blocks-side-by-side)*
+* *Special reference: [How to Display Two Markdown Code-Blocks Side-by-Side](https://stackoverflow.com/questions/35381425/how-to-disply-two-markdown-code-blocks-side-by-side)*
 - Always start your CSS with universal selectors first before moving onto the first ID or Class in your HTML
 ```css
 html, body {
     background-color: #fffaf4; 
-    color: #424242;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
-    font-weight: 300;
-    line-height: 1.5;
-    height: 100vh;
-   }
+    height: 100vh;}
 *{
-    font-family: inherit;
-    line-height: inherit;
     text-decoration: none;
-    color: inherit;
     padding: 0;
-    margin: 0;
-}
+    margin: 0;}
+    
+#Navbar{
+    background-color: #FF8700;}
+.navbar_leftside{
+    background-color: #FF0000;}
+    
+#mainContent {
+    background-color: #00FFFF;}
+.maincontent_logo {
+    background-color: #FF8700;}
 ```
 
 # 1. Layout
