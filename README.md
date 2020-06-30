@@ -172,20 +172,32 @@ html, body {
 - Start adding your content within the parent divs you just made in your HTML file
     - remember to keep your parent divs independent from the content
     
-    :heavy_check_mark: *(clean)*
-    ```html
-    <div id ="Navbar">
-        <div>
+   | :heavy_check_mark: *(clean)* | :x: *(dirty)* |
+   | --- | --- |
+   <table>
+    <tr>
+    <td>
+    <pre>
+
+        div id ="Navbar">
+            div class ="navbar_content">
+              CONTENT
+            </div>
+        </div>
+
+    </pre>
+    </td>
+    <td>
+    <pre>
+
+        div id ="Navbar">
             CONTENT
         </div>
-    </div>
-    ```
-    :x: *(dirty)*
-    ```html
-    <div id ="Navbar">
-        CONTENT
-    </div>
-    ```
+
+    </pre>
+    </td>
+    </tr>
+    </table>
 
 # 3. Style <a name ="style"></a>
 
