@@ -173,14 +173,7 @@ html, body {
     - remember to keep your parent divs independent from the content
     
    | :heavy_check_mark: *(clean)* | :x: *(dirty)* |
-   | --- | --- |
-   | `<div id ="Navbar">` | `<div id ="Navbar">` |
-   | `<div class ="navbar_content">` | content |
-   | content | `</div>` |
-   | `</div>` | |
-   | `</div>` | |
-   
-   
+   | "                                             " | "                                             " |  
    <table>
     <tr>
     <td>
