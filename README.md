@@ -154,8 +154,9 @@ html, body {
 .navbar_leftside{
     background-color: #FF0000;}
 ```
+---
 
-# 1. Layout
+# 1. Layout <a name ="layout"></a>
 - **<WB>** Design the layout of your webpage
 **<img>**
 - Build the parent containers for each section of your webpage in HTML
@@ -165,21 +166,16 @@ html, body {
 - Color the HTML divs in CSS for a better visual of each section before placing each in the desired area of the viewport
 **<img>**
 
-## Features
-What makes your project stand out?
+# 2. Place <a name ="place"></a>
 
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
-## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+# 3. Style <a name ="style"></a>
 
-## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+# 4. Refine <a name ="refine"></a>
 
-## Tests
-Describe and show how to run the tests with code examples.
+
+# 5. Exeperience <a name ="experience"></a>
 
 ## How to use?
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
