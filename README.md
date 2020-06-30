@@ -97,14 +97,10 @@ The number of main features on this webpage is **14:**
 <table>
 <tr>
 <th>
-
 HTML
-
 </th>
 <th>
-
 CSS
-
 </th>
 </tr>
 
@@ -112,31 +108,24 @@ CSS
 <td>
 <pre>
 {
-        <div id ="Navbar">
-        <div class ="navbar_leftside></div>
-        </div>
-        <div id ="mainContent">
-        <div class ="maincontent_logo></div>
-        </div>
+    <div id ="Navbar">
+    <div class ="navbar_leftside></div>
+    </div>
+    <div id ="mainContent">
+    <div class ="maincontent_logo></div>
+    </div>
 }
+
 </pre>
 </td>
 <td>
 <pre>
-#Navbar {
-    background-color: #FF8700;
+{
+    #Navbar{}
+    .navbar_leftside{}
+    #mainContent {}
+    .maincontent_logo {}
 }
-.navbar_leftside {
-    background-color: #FF0000;
-}
-
-#mainContent {
-    background-color: #00FFFF;
-}
-.maincontent_logo {
-    Background-color: #FF9B00;
-}
-    
 </pre>
 </td>
 </tr>
