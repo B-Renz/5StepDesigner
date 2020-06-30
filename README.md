@@ -115,12 +115,12 @@ CSS
 </td>
 <td>
 <pre>
-{
+
     #Navbar{}
     .navbar_leftside{}
     #mainContent {}
     .maincontent_logo {}
-}
+
 </pre>
 </td>
 </tr>
