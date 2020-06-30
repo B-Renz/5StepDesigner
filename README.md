@@ -175,7 +175,7 @@ html, body {
    | :heavy_check_mark: *(clean)* | :x: *(dirty)* |
    | --- | --- |
    | `<div id ="Navbar">` | ............................... |
-   |     `<div class ="navbar_content">` | ......... |
+   |  ____`<div class ="navbar_content">` | ......... |
    
    <table>
     <tr>
