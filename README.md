@@ -199,7 +199,12 @@ html, body {
 **{img}____{img}**
 
 # 4. Refine <a name ="refine"></a>
-
+- This step is meant to just make the page ['pop'](https://creativemarket.com/blog/design-clients-make-it-pop) a little
+    - technically, this step can be considered optional, but I really wouldn't recommend it (it just helps shows a certain attention to detail)
+**{img}____{img}**
+- Check dev-tools and click this icon to see how your webpage looks on each device: <br />
+**{gif}**
+- If you are not satisfied with what you see, add the necessary [@media queries](https://css-tricks.com/css-media-queries/) that will satisfy your needs (Although, if done correctly, you should only be tapping into your inner perfectionist at this point -- modifications should be minimal)
 
 # 5. Exeperience <a name ="experience"></a>
 
