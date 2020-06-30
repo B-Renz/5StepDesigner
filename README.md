@@ -36,8 +36,10 @@ I hope this repo can provide some use to those who’ve come across it.
 ---
 
 ### Room For Improvements:
-- Although this project does not require the vertical menu and ad-space column within the **Main [content]**, it would be best for me to still ad empty containers for these sections (and have their display property argument set to none within the CSS)
+- [] Although this project does not require the vertical menu and ad-space column within the **Main [content]**, it would be best for me to still ad empty containers for these sections (and have their display property argument set to none within the CSS)
     - This would really help with the versitility and essentially create a pretty decent HTML/CSS framework for future projects
+- [] Add a link to my future blog post on helping those that are having trouble wrappng their head around the concepts of ***parent vs. child elements** by using a brief HTML/CSS sample to explain. Link will be anchored to last bullet-point in the **Place** section
+- [] Add a link to my future blog post on ***closing that mysterious gap*** by using a very short HTML file that displays a search bar and a search icon as a submit button. Link will be anchored to first bullet point in the **Style** section
 ---
 
 # 0. Plan <a name ="plan"></a>
@@ -174,10 +176,16 @@ html, body {
     
    | :heavy_check_mark: *(clean)* | :x: *(dirty)* |
    | --- | --- |
-   | **div** id ="Navbar"> <br /> &nbsp;&nbsp; **div** class ="navbar_content"> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***content*** <br /> &nbsp;&nbsp; /div> <br /> /div> <br /> | **div** id ="Navbar"> <br /> &nbsp;&nbsp;&nbsp;&nbsp; ***content*** <br /> /div> <br /> |
+   | **div** id ="Navbar"> <br /> &nbsp;&nbsp; **div** class ="navbar_content"> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***content*** <br /> &nbsp;&nbsp; /**div**> <br /> /**div**> <br /> | **div** id ="Navbar"> <br /> &nbsp;&nbsp;&nbsp;&nbsp; ***content*** <br /> /**div**> <br /> |
+
+- Ensure that added content is within its parent container and without any overflow
+    - If adjustments are needed, adjust them in your CSS file
+    **{img}**
+- While in your CSS file, move your content (your child elements) in the desired area of the viewport
+**{img}**
 
 # 3. Style <a name ="style"></a>
-
+- By this point, you should be exclusively be working in CSS
 
 # 4. Refine <a name ="refine"></a>
 
