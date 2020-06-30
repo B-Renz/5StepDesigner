@@ -174,7 +174,7 @@ html, body {
     
    | :heavy_check_mark: *(clean)* | :x: *(dirty)* |
    | --- | --- |
-   | div id ="Navbar"> <br /> &nbsp;&nbsp; div class ="navbar_content"> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; content <br /> &nbsp;&nbsp; /div> <br /> /div> <br /> | div id ="Navbar"> <br /> &nbsp:&nbsp;&nbsp;&nbsp; content <br /> /div> <br /> |
+   | **div** id ="Navbar"> <br /> &nbsp;&nbsp; **div** class ="navbar_content"> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***content*** <br /> &nbsp;&nbsp; /div> <br /> /div> <br /> | **div** id ="Navbar"> <br /> &nbsp;&nbsp;&nbsp;&nbsp; ***content*** <br /> /div> <br /> |
 
 # 3. Style <a name ="style"></a>
 
