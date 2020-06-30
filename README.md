@@ -117,12 +117,18 @@ CSS
 </td>
 <td>
 <pre>
-
-    #Navbar{}
-    .navbar_leftside{}
-    #mainContent {}
-    .maincontent_logo {}
-
+    #Navbar{
+        background-color: #FF8700;
+    }
+    .navbar_leftside{
+        background-color: #FF0000;
+    }
+    #mainContent {
+        background-color: #00FFFF;
+    }
+    .maincontent_logo {
+        background-color: #FF8700;
+    }
 </pre>
 </td>
 </tr>
