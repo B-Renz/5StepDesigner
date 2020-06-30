@@ -43,7 +43,7 @@ I hope this repo can provide some use to those who’ve come across it.
 # 0. Plan <a name ="plan"></a>
 This is the time to figure out why the webpage exists, and what the webpage should do. If you don’t do this first, the rest just seems… pointless(?). Hope that’s not too harsh, but yeah, it’s like trying to cook up a meal before knowing how many people you’re feeding, when supper-time begins...ends, how many courses to serve, or even where supper-time is.
 
-*Note: I tend to stay away from the computer at this step, as working on the white-board helps with my thought-process. I like to do this throughout the 5 steps, so I will mark these areas with a **<WB>** tag*
+*Note: I tend to stay away from the computer at this step, as working on the white-board helps with my thought-process. I like to do this throughout the 5 steps, so I will mark these areas with a **{WB}** tag*
 
 - Since this project doesn’t require any major functionality (no programming here), Javascript (or any other programming language) will not be used within this example.
 
@@ -76,7 +76,7 @@ The number of main features on this webpage is **14:**
 
 - Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns):
 
-**<gif>**
+**{gif}**
 
 ## Personal Rules of Thumb:
 - It is always best to design according to what media most of your viewers will be experiencing your webpage on. Now-a-days, the mobile phone is one of the most widely used medias, alongside personal tablets. Because of this, it's usually best practice to utilize a **[mobile-first](https://designshack.net/articles/mobile/mobilefirst/) approach** to design
@@ -157,17 +157,34 @@ html, body {
 ---
 
 # 1. Layout <a name ="layout"></a>
-- **<WB>** Design the layout of your webpage
-**<img>**
+- **{WB}** Design the layout of your webpage
+**{img}**
 - Build the parent containers for each section of your webpage in HTML
-**<img>**
+**{img}**
     - *hint: place temporary text in the divs in order to see them*
-    **<gif>**
+    **{gif}**
 - Color the HTML divs in CSS for a better visual of each section before placing each in the desired area of the viewport
-**<img>**
+**{img}**
+- Now, check to confirm each section flex's and grids according to the size of the viewport
+**{gif}**
 
 # 2. Place <a name ="place"></a>
-
+- Start adding your content within the parent divs you just made in your HTML file
+    - remember to keep your parent divs independent from the content
+    :heavy_check_mark:
+    ```html
+    <div id ="Navbar">
+        <div>
+            CONTENT
+        </div>
+    </div>
+    ```
+    :x:
+    ```html
+    <div id ="Navbar">
+        CONTENT
+    </div>
+    ```
 
 # 3. Style <a name ="style"></a>
 
