@@ -123,6 +123,7 @@ CSS
     .navbar_leftside{
         background-color: #FF0000;
     }
+    
     #mainContent {
         background-color: #00FFFF;
     }
