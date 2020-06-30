@@ -135,7 +135,7 @@ CSS
 </tr>
 </table>
 
-* *Special reference: [How to Display Two Markdown Code-Blocks Side-by-Side](https://stackoverflow.com/questions/35381425/how-to-disply-two-markdown-code-blocks-side-by-side)*
+*Special reference: [How to Display Two Markdown Code-Blocks Side-by-Side](https://stackoverflow.com/questions/35381425/how-to-disply-two-markdown-code-blocks-side-by-side)*
 - Always start your CSS with universal selectors first before moving onto the first ID or Class in your HTML
 ```css
 html, body {
@@ -148,15 +148,11 @@ html, body {
     padding: 0;
     margin: 0;}
     
+    
 #Navbar{
     background-color: #FF8700;}
 .navbar_leftside{
     background-color: #FF0000;}
-    
-#mainContent {
-    background-color: #00FFFF;}
-.maincontent_logo {
-    background-color: #FF8700;}
 ```
 
 # 1. Layout
