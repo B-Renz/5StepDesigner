@@ -16,12 +16,12 @@ So, I decided to spend some time and find a process that helps me get going on j
 ---
 
 ## The 5 Step Designer:
-00 [Plan](#plan)
-01 [Layout](#layout)
-02 [Place](#place)
-03 [Style](#style)
-04 [Refine](#refine)
-05 [Experience](#experience)
+- 00 [Plan](#plan)
+- 01 [Layout](#layout)
+- 02 [Place](#place)
+- 03 [Style](#style)
+- 04 [Refine](#refine)
+- 05 [Experience](#experience)
 
 # Summary
 So, I’ve been using The Odin Project to learn most of my front-end development skills, and in the Web Development 101 course, the first project they ask of you is to recreate the desktop version of the Google homepage with only HTML and CSS (basically, make it look like the page, don’t bother making it function like the page).
