@@ -121,23 +121,21 @@ CSS
 <pre>
 
     #Navbar{
-        background-color: #FF8700;
-    }
+        background-color: #FF8700;}
     .navbar_leftside{
-        background-color: #FF0000;
-    }
+        background-color: #FF0000;}
     
     #mainContent {
-        background-color: #00FFFF;
-    }
+        background-color: #00FFFF;}
     .maincontent_logo {
-        background-color: #FF8700;
-    }
+        background-color: #FF8700;}
     
 </pre>
 </td>
 </tr>
 </table>
+
+*Special reference: [How to Display Two Markdown Code-Blocks Side-by-Side](https://stackoverflow.com/questions/35381425/how-to-disply-two-markdown-code-blocks-side-by-side) 
 
 # 1. Layout
 - **<WB>** Design the layout of your webpage
