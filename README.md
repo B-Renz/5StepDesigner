@@ -55,12 +55,12 @@ The **main features of this webpage are** direct links to mutliple destinations.
 The number of main features on this webpage is **14:**
 
 **Top [navBar]:**
-**1.**	About (Google) link;
-**2.**	Google Store link;
-**3.**	Gmail link;
-**4.**	Google Images link;
-**5.**	Javascript onClick drop-down-menu for Google Shortcuts/Apps (displayed as icon: Grid)
-**6.**	Javascript Google Account Sign-in button
+1.	About (Google) link;
+2.	Google Store link;
+3.	Gmail link;
+4.	Google Images link;
+5.	Javascript onClick drop-down-menu for Google Shortcuts/Apps (displayed as icon: Grid)
+6.	Javascript Google Account Sign-in button
 
 **Main [content]:**
 **7.**	Submit button for search entry form;
