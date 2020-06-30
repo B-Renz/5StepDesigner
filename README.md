@@ -74,7 +74,7 @@ The number of main features on this webpage is **14:**
 **13.**	Link to Google’s Terms & Conditions;
 **14.**	Javascript onClick drop-down-menu for google search settings;
 
-- Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the [Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/), with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns):
+- Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns):
 
 **<gif>**
 
@@ -92,7 +92,7 @@ The number of main features on this webpage is **14:**
             <div class ="navbar_leftside"></div>
         </div>
 ```
-- Keep CSS [selectors](https://doc.qt.io/Qt-5/stylesheet-syntax.html) in the same order as the HTML IDs and Classes are
+- Keep CSS [selectors](https://doc.qt.io/Qt-5/stylesheet-syntax.html) in the same order as the HTML IDs and Classes 
 
 <table>
 <tr>
@@ -107,16 +107,19 @@ CSS
 <tr>
 <td>
 <pre>
+
     div id ="Navbar">
         div class ="navbar_leftside"></div>
     </div>
     div id ="mainContent">
         div class ="maincontent_logo"></div>
     </div>
+    
 </pre>
 </td>
 <td>
 <pre>
+
     #Navbar{
         background-color: #FF8700;
     }
@@ -130,6 +133,7 @@ CSS
     .maincontent_logo {
         background-color: #FF8700;
     }
+    
 </pre>
 </td>
 </tr>
