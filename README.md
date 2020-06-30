@@ -98,12 +98,12 @@ The number of main features on this webpage is **14:**
 <tr>
 <th>
 
-Json 1
+HTML
 
 </th>
 <th>
 
-Json 2
+CSS
 
 </th>
 </tr>
@@ -112,24 +112,31 @@ Json 2
 <td>
 <pre>
 
-{
-    "id": 1,
-    "username": "joe",
-    "email": "joe@example.com",
-    "order_id": "3544fc0"
-}
+<div id ="Navbar">
+    <div class ="navbar_leftside></div>
+</div>
+<div id ="mainContent">
+    <div class ="maincontent_logo></div>
+</div>
 
 </pre>
 </td>
 <td>
 <pre>
-
-{
-    "id": 5,
-    "username": "mary",
-    "email": "mary@example.com",
-    "order_id": "f7177da"
+#Navbar {
+    background-color: #FF8700;
 }
+.navbar_leftside {
+    background-color: #FF0000;
+}
+
+#mainContent {
+    background-color: #00FFFF;
+}
+.maincontent_logo {
+    Background-color: #FF9B00;
+}
+    
 </pre>
 </td>
 </tr>
