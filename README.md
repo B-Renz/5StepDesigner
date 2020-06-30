@@ -79,7 +79,7 @@ The number of main features on this webpage is **14:**
 13.	Link to Google’s Terms & Conditions;
 14.	Javascript onClick drop-down-menu for google search settings;
 
-- Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns):
+- Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns): <br />
 
 **{gif}**
 
@@ -162,15 +162,15 @@ html, body {
 ---
 
 # 1. Layout <a name ="layout"></a>
-- **{WB}** Design the layout of your webpage
+- **{WB}** Design the layout of your webpage <br />
 **{img}**
-- Build the parent containers for each section of your webpage in HTML
+- Build the parent containers for each section of your webpage in HTML <br />
 **{img}**
-    - *hint: place temporary text in the divs in order to see them*
+    - *hint: place temporary text in the divs in order to see them* <br />
     **{gif}**
-- Color the HTML divs in CSS for a better visual of each section before placing each in the desired area of the viewport
+- Color the HTML divs in CSS for a better visual of each section before placing each in the desired area of the viewport <br />
 **{img}**
-- Now, check to confirm each section flex's and grids according to the size of the viewport
+- Now, check to confirm each section flex's and grids according to the size of the viewport <br />
 **{gif}**
 
 # 2. Place <a name ="place"></a>
@@ -182,9 +182,9 @@ html, body {
    | **div** id ="Navbar"> <br /> &nbsp;&nbsp; **div** class ="navbar_content"> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ***content*** <br /> &nbsp;&nbsp; /**div**> <br /> /**div**> <br /> | **div** id ="Navbar"> <br /> &nbsp;&nbsp;&nbsp;&nbsp; ***content*** <br /> /**div**> <br /> |
 
 - Ensure that added content is within its parent container and without any overflow
-    - If adjustments are needed, adjust them in your CSS file
+    - If adjustments are needed, adjust them in your CSS file <br /> 
     **{img}**
-- While in your CSS file, move your content (your [child elements](https://github.com/B-Renz)) in the desired area of the viewport
+- While in your CSS file, move your content (your [child elements](https://github.com/B-Renz)) in the desired area of the viewport <br />
 **{img}**
 
 # 3. Style <a name ="style"></a>
@@ -192,10 +192,10 @@ html, body {
 - Ensure that fonts and images are properly sized, text borders and buttons are properly styled
 - Ensure every content that the user is expected to 'click' on has a pointer over the element when hovering over it
 - Ensure that the layout and content are properly sized and moved according to each responsive layout
-    - When you squeeze and stretch the width of the viewport window, does everything fall into place? How about when you squeeze and stretch the height?
+    - When you squeeze and stretch the width of the viewport window, does everything fall into place? How about when you squeeze and stretch the height? <br />
     **{gif}**
-- Color anything you'd like
-*Note: It's usually best practice to always have some tone of color for the negative space on your page instead of pure white*
+- Color anything you'd like <br />
+*Note: It's usually best practice to always have some tone of color for the negative space on your page instead of pure white* <br />
 **{img}____{img}**
 
 # 4. Refine <a name ="refine"></a>
