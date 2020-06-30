@@ -107,14 +107,12 @@ CSS
 <tr>
 <td>
 <pre>
-<p>
-    "<div id ="Navbar"><br>
-        <div class ="navbar_leftside"></div><br>
-    </div><br>
-    <div id ="mainContent"><br>
-        <div class ="maincontent_logo"></div><br>
-    </div><br>"
-</p>
+    div id ="Navbar">
+        div class ="navbar_leftside"></div>
+    </div>
+    div id ="mainContent">
+        div class ="maincontent_logo"></div>
+    </div>
 </pre>
 </td>
 <td>
