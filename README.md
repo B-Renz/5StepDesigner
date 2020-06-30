@@ -40,7 +40,7 @@ I hope this repo can provide some use to those who’ve come across it.
     - This would really help with the versitility and essentially create a pretty decent HTML/CSS framework for future projects
 ---
 
-# 0. Plan
+# 0. Plan <a name ="plan"></a>
 This is the time to figure out why the webpage exists, and what the webpage should do. If you don’t do this first, the rest just seems… pointless(?). Hope that’s not too harsh, but yeah, it’s like trying to cook up a meal before knowing how many people you’re feeding, when supper-time begins...ends, how many courses to serve, or even where supper-time is.
 
 *Note: I tend to stay away from the computer at this step, as working on the white-board helps with my thought-process. I like to do this throughout the 5 steps, so I will mark these areas with a **<WB>** tag*
