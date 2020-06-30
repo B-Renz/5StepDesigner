@@ -174,11 +174,11 @@ html, body {
     
    | :heavy_check_mark: *(clean)* | :x: *(dirty)* |
    | --- | --- |
-   | ___`<div id ="Navbar">` | ____`<div id ="Navbar">` |
-   | ________`<div class ="navbar_content">` | ________CONTENT |
-   | ________________CONTENT | ____`</div> |
-   | ________`</div>` | |
-   | ____`</div>` | |
+   | ....`<div id ="Navbar">` | ____`<div id ="Navbar">` |
+   | ........`<div class ="navbar_content">` | ________content |
+   | ...............content | ____`</div>` |
+   | ........`</div>` | |
+   | ....`</div>` | |
    
    
    <table>
