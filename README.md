@@ -207,9 +207,20 @@ html, body {
 - If you are not satisfied with what you see, add the necessary [@media queries](https://css-tricks.com/css-media-queries/) that will satisfy your needs (Although, if done correctly, you should only be tapping into your inner perfectionist at this point -- modifications should be minimal)
 
 # 5. Exeperience <a name ="experience"></a>
+- Now, include details that highlight your call to action
+    - This would include your :active , :hover , :focus , :visited , and :required tags within your CSS selectors
+- Although a good HTML and CSS file should already be started with [accessibility](https://css-tricks.com/improving-accessibility-24-ways/) in mind, it is best to check and ensure that the accessibility of everything on your webpage is up to [today's standards](https://www.w3.org/TR/WCAG21/)
+- At this point we'd start throwing in our Javascript but for this project, Javascript will not needed
 
 ## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+index1.html = [Layout](http://htmlpreview.github.com/https://github.com/B-Renz/google-homepage/blob/master/index1.html)
+index2.html = Place
+index3.html = Style
+index4.html = Refine
+index.html  = Experience
+
+*Tip: only click on the index1.html preview link and change the integer after 'index' within the URL*
+**{gif}**
 
 ## Contribute
 
