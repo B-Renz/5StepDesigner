@@ -107,9 +107,9 @@ CSS
 <tr>
 <td>
 <pre>
-{
-    
-}
+```html
+<div id ="Navbar">
+```
 
 </pre>
 </td>
