@@ -171,7 +171,8 @@ html, body {
 # 2. Place <a name ="place"></a>
 - Start adding your content within the parent divs you just made in your HTML file
     - remember to keep your parent divs independent from the content
-    :heavy_check_mark:
+    
+    :heavy_check_mark: *(clean)*
     ```html
     <div id ="Navbar">
         <div>
@@ -179,7 +180,7 @@ html, body {
         </div>
     </div>
     ```
-    :x:
+    :x: *(dirty)*
     ```html
     <div id ="Navbar">
         CONTENT
