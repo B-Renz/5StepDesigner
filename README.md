@@ -1,5 +1,5 @@
 
-**<img>**
+**{img}**
 
 # The 5 Step Designer
 The first 5 steps to designing almost any website
