@@ -110,12 +110,16 @@ CSS
 
 <tr>
 <td>
-<div id ="Navbar">
-<div class ="navbar_leftside></div>
-</div>
-<div id ="mainContent">
-<div class ="maincontent_logo></div>
-</div>
+<pre>
+{
+        <div id ="Navbar">
+        <div class ="navbar_leftside></div>
+        </div>
+        <div id ="mainContent">
+        <div class ="maincontent_logo></div>
+        </div>
+}
+</pre>
 </td>
 <td>
 <pre>
