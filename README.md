@@ -213,11 +213,11 @@ html, body {
 - At this point we'd start throwing in our Javascript but for this project, Javascript will not needed
 
 ## How to use?
-index1.html = [Layout](http://htmlpreview.github.com/?https://github.com/B-Renz/google-homepage/blob/master/index1.html) <br />
-index2.html = Place <br />
-index3.html = Style <br />
-index4.html = Refine <br />
-index.html  = Experience <br />
+index1.html = [Layout](https://codepen.io/b-renz/pen/oNbEyop) <br />
+index2.html = [Place](https://codepen.io/b-renz/pen/KKVQeZw) <br />
+index3.html = [Style](https://codepen.io/b-renz/pen/oNbEypE) <br />
+index4.html = [Refine](https://codepen.io/b-renz/pen/mdVXKpz) <br />
+index.html  = [Experience](https://codepen.io/b-renz/pen/ZEQrRrO) <br />
 
 *Tip: only click on the index1.html preview link and change the integer after 'index' within the URL*
 **{gif}**
