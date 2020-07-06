@@ -210,3 +210,29 @@ a:hover{
 .a-settings:hover{
     color: #ef3125;
 }
+/**/
+@media all and (min-width: 350px) {
+    #logo {
+        max-width: 300px;
+    }
+    #searchform{
+        max-width: 340px;
+    }
+    #footerlinks{
+        font-size: 11px;
+    }
+}
+/**/
+@media all and (max-width: 349px) {
+    #logo {
+        max-width: 290px;
+        margin-top: 150px;
+    }
+    #searchform{
+        max-width: 280px;
+    }
+    #footerlinks{
+        font-size: 8px;
+    }
+}
+}
