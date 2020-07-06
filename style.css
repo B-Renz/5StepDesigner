@@ -211,7 +211,8 @@ a:hover{
     color: #ef3125;
 }
 /**/
-@media all and (min-width: 350px) {
+/* Large Phones */
+@media only screen and (max-width: 420px) and (min-width: 351px) {
     #logo {
         max-width: 300px;
     }
@@ -223,7 +224,8 @@ a:hover{
     }
 }
 /**/
-@media all and (max-width: 349px) {
+/* Little phones */
+@media only screen and (max-width: 350px) and (min-width: 300px){
     #logo {
         max-width: 290px;
         margin-top: 150px;
@@ -234,5 +236,4 @@ a:hover{
     #footerlinks{
         font-size: 8px;
     }
-}
 }
