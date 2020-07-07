@@ -258,7 +258,7 @@ Let's take the background colors off of the containers now:
 
 *Note: It's usually best practice to always have some tone of color for the negative space on your page instead of pure white* <br />
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepicdouble.png" width="33%" height="auto">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepicdouble.png" width="67%" height="auto">
 
 # 4. Refine <a name ="refine"></a>
 - This step is meant to just make the page ['pop'](https://creativemarket.com/blog/design-clients-make-it-pop) a little
