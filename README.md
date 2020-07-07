@@ -227,7 +227,7 @@ html, body {
 **{gif}**
 - If you are not satisfied with what you see, add the necessary [@media queries](https://css-tricks.com/css-media-queries/) that will satisfy your needs (Although, if done correctly, you should only be tapping into your inner perfectionist at this point -- modifications should be minimal)
 
-# 5. Exeperience <a name ="experience"></a>
+# 5. Experience <a name ="experience"></a>
 - Now, include details that highlight your call to action
     - This would include your :active , :hover , :focus , :visited , and :required tags within your CSS selectors
 - Although a good HTML and CSS file should already be started with [accessibility](https://css-tricks.com/improving-accessibility-24-ways/) in mind, it is best to check and ensure that the accessibility of everything on your webpage is up to [today's standards](https://www.w3.org/TR/WCAG21/)
