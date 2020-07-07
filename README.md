@@ -188,15 +188,36 @@ html, body {
     </body>
 ```
    *hint: place temporary text in the divs in order to see them* <br />
-    ```html
-    <div id="navbar">
-        NAVBAR <!--Placeholder-->
-    </div>
-    ```
-    <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic1.png"> <br />
+```html
+<div id="navbar">
+    NAVBAR <!--Placeholder-->
+</div>
+<div id="logo">
+    LOGO <!--Placeholder-->
+</div>
+<div id="searchform">
+    SEARCHFORM <!--Placeholder-->
+</div>
+<div id="shortcuts">
+    SHORTCUTS <!--Placeholder-->
+</div>
+<div id="footerlinks">
+    FOOTERLINKS <!--Placeholder-->
+</div>
+```
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic1.png"> <br />
     
-- Color the HTML divs in CSS for a better visual of each section before placing each in the desired area of the viewport <br />
-**{img}**
+- Color the HTML divs in CSS for a better visual of each section... <br />
+
+
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic2.png"> <br />
+
+
+before placing each in the desired area of the viewport
+ 
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic3.png">
+
+
 - Now, check to confirm each section flex's and grids according to the size of the viewport <br />
 **{gif}**
 
