@@ -240,11 +240,11 @@ index3.html = [Style](https://codepen.io/b-renz/pen/oNbEypE) <br />
 index4.html = [Refine](https://codepen.io/b-renz/pen/mdVXKpz) <br />
 index.html  = [Experience](https://codepen.io/b-renz/pen/ZEQrRrO) <br />
 
-Go ahead and check out each finished step in [codepen](https://codepen.io/). I'd recommend getting your HTML file started in your favorite editor, such as your `<head></<head>` section (including a link to your CSS file and your font-awesome bucket link)
+Go ahead and check out each finished step in [codepen](https://codepen.io/) by clicking on the links above. I'd recommend getting your HTML file started in your favorite editor, such as your ```html <head></<head>``` section (including a link to your CSS file and your font-awesome bucket link)
 
-- If you haven't already, create a free account on:<br />
+- If you haven't already set yourself up with a text-icon service account (to use icons) and a cloud file-storage service (to show images), go ahead and do so. Not sure where to start? Just create a free account on these trusted platforms:<br />
         - [font-awesome](https://fontawesome.com/): **Why?**  Let's you use a massive amount of icons, such as the 3 we use in this project<br />
-        - [amazon web services](https://aws.amazon.com/) (aws): **Why?**   Store your images here in a public bin and use this new location for your `href=""`.       Now, everyone can see the images on your webpage (like the Google logo we used in this project)<br />
+        - [amazon web services](https://aws.amazon.com/) (aws): **Why?**   Store your images here in a public bin and use this new location for your ```html href=""```. Now, everyone can see the images on your webpage (like the Google logo we used in this project)<br />
 
 ## Contribute
 
