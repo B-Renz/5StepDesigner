@@ -272,7 +272,7 @@ Let's take the background colors off of the containers now:
 **{gif}**
 - If you are not satisfied with what you see, add the necessary [@media queries](https://css-tricks.com/css-media-queries/) that will satisfy your needs (Although, if done correctly, you should only be tapping into your inner perfectionist at this point -- modifications should be minimal)
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic2.png" width="33%" height="auto">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic3.png" width="33%" height="auto">
 
 # 5. Experience <a name ="experience"></a>
 - Now, include details that highlight your call to action
