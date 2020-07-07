@@ -246,20 +246,26 @@ before placing each in the desired area of the viewport
 
 Let's take the background colors off of the containers now:
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic1.png">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic2.png">
 
 - Ensure every content that the user is expected to 'click' on has a pointer over the element when hovering over it
 - Ensure that the layout and content are properly sized and moved according to each responsive layout
     - When you squeeze and stretch the width of the viewport window, does everything fall into place? How about when you squeeze and stretch the height? <br />
     **{gif}**
 - Color anything you'd like <br />
+
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic2.png">
+
 *Note: It's usually best practice to always have some tone of color for the negative space on your page instead of pure white* <br />
 **{img}____{img}**
 
 # 4. Refine <a name ="refine"></a>
 - This step is meant to just make the page ['pop'](https://creativemarket.com/blog/design-clients-make-it-pop) a little
     - technically, this step can be considered optional, but I really wouldn't recommend it (it just helps shows a certain attention to detail)
-**{img}____{img}**
+| **Before:** | **After:** |
+| --- | --- |
+| <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic0.png"> | <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic01.png">
+
 - Check dev-tools and click this icon to see how your webpage looks on each device: <br />
 **{gif}**
 - If you are not satisfied with what you see, add the necessary [@media queries](https://css-tricks.com/css-media-queries/) that will satisfy your needs (Although, if done correctly, you should only be tapping into your inner perfectionist at this point -- modifications should be minimal)
