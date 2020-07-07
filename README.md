@@ -205,17 +205,17 @@ html, body {
     FOOTERLINKS <!--Placeholder-->
 </div>
 ```
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic1.png"> <br />
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic1.png" style="width:50%;height:auto"> <br />
     
 - Color the HTML divs in CSS for a better visual of each section... <br />
 
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic2.png"> <br />
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic2.png" style="width:50%;height:auto"> <br />
 
 
 before placing each in the desired area of the viewport
  
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic3.png">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic3.png" style="width:50%;height:auto">
 
 
 - Now, check to confirm each section flex's and grids according to the size of the viewport <br />
@@ -236,7 +236,7 @@ before placing each in the desired area of the viewport
 **{img}**
 
 # 3. Style <a name ="style"></a>
-- By this point, you should be exclusively be working in CSS. Exceptions could be having to place two elements on the same line in order to [close a gap](https://github.com/B-Renz)
+- By this point, you should exclusively be working in CSS. Exceptions could be having to place two elements on the same line in order to [close a gap](https://github.com/B-Renz)
 - Ensure that fonts and images are properly sized, text borders and buttons are properly styled
 - Ensure every content that the user is expected to 'click' on has a pointer over the element when hovering over it
 - Ensure that the layout and content are properly sized and moved according to each responsive layout
