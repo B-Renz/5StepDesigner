@@ -207,13 +207,13 @@ html, body {
 ```
 <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic1.png" width="33%" height="auto"> <br />
     
-- Color the HTML divs in CSS for a better visual of each section... <br />
+- Color the HTML divs in CSS for a better visual of each section <br />
 
 
 <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic2.png" width="33%" height="auto"> <br />
 
 
-before placing each in the desired area of the viewport
+...before placing each in the desired area of the viewport
  
 <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic3.png" width="33%" height="auto">
 
@@ -232,21 +232,21 @@ before placing each in the desired area of the viewport
 - Ensure that added content is within its parent container and without any overflow
     - If adjustments are needed, adjust them in your CSS file <br /> 
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/placepic1.png">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/placepic1.png" width="33%" height="auto">
 
 - While in your CSS file, move your content (your [child elements](https://github.com/B-Renz)) in the desired area of the viewport <br />
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/placepic2.png">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/placepic2.png" width="33%" height="auto">
 
 # 3. Style <a name ="style"></a>
 - By this point, you should exclusively be working in CSS. Exceptions could be having to place two elements on the same line in order to [close a gap](https://github.com/B-Renz)
 - Ensure that fonts and images are properly sized, text borders and buttons are properly styled
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic1.png">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic1.png" width="33%" height="auto">
 
 Let's take the background colors off of the containers now:
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic2.png">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic2.png" width="33%" height="auto">
 
 - Ensure every content that the user is expected to 'click' on has a pointer over the element when hovering over it
 - Ensure that the layout and content are properly sized and moved according to each responsive layout
@@ -254,11 +254,11 @@ Let's take the background colors off of the containers now:
     **{gif}**
 - Color anything you'd like <br />
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic3.png">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic3.png" width="33%" height="auto">
 
 *Note: It's usually best practice to always have some tone of color for the negative space on your page instead of pure white* <br />
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepicdouble.png">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepicdouble.png" width="33%" height="auto">
 
 # 4. Refine <a name ="refine"></a>
 - This step is meant to just make the page ['pop'](https://creativemarket.com/blog/design-clients-make-it-pop) a little
@@ -272,7 +272,7 @@ Let's take the background colors off of the containers now:
 **{gif}**
 - If you are not satisfied with what you see, add the necessary [@media queries](https://css-tricks.com/css-media-queries/) that will satisfy your needs (Although, if done correctly, you should only be tapping into your inner perfectionist at this point -- modifications should be minimal)
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic2.png">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic2.png" width="33%" height="auto">
 
 # 5. Experience <a name ="experience"></a>
 - Now, include details that highlight your call to action
