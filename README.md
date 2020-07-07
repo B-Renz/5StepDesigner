@@ -240,8 +240,11 @@ index3.html = [Style](https://codepen.io/b-renz/pen/oNbEypE) <br />
 index4.html = [Refine](https://codepen.io/b-renz/pen/mdVXKpz) <br />
 index.html  = [Experience](https://codepen.io/b-renz/pen/ZEQrRrO) <br />
 
-*Tip: only click on the index1.html preview link and change the integer after 'index' within the URL*
-**{gif}**
+Go ahead and check out each finished step in [codepen](https://codepen.io/). I'd recommend getting your HTML file started in your favorite editor, such as your `<head></<head>` section (including a link to your CSS file and your font-awesome bucket link)
+
+- If you haven't already, create a free account on:
+        - [font-awesome](https://fontawesome.com/): **Why?**  Let's you use a massive amount of icons, such as the 3 we use in this project
+        - [amazon web services](https://aws.amazon.com/) (aws): **Why?**   Store your images here in a public bin and use this new location for your `href=""`.       Now, everyone can see the images on your webpage (like the Google logo we used in this project)
 
 ## Contribute
 
