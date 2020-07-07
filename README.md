@@ -264,7 +264,7 @@ Let's take the background colors off of the containers now:
     - technically, this step can be considered optional, but I really wouldn't recommend it (it just helps shows a certain attention to detail)
 | **Before:** | **After:** |
 | --- | --- |
-| <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic0.png"> | <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic01.png">
+| <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic0.png"> | <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic01.png"> |
 
 - Check dev-tools and click this icon to see how your webpage looks on each device: <br />
 **{gif}**
