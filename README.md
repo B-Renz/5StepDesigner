@@ -33,6 +33,9 @@ Since this project only requires the design-side of developing a webpage, I figu
 
 I hope this repo can provide some use to those who’ve come across it. 
 
+***Please Note:***
+This guide is intended for those who have a good foundation in HTML and CSS basics and some experience writing HTML and CSS within their personal editor (while hopefully using a live-feed server to see a preview of your markup file). If you understand the diference between flexbox and grid and when either would be of more use, following along should be cake (simple).
+
 ---
 
 ### Room For Improvements:
@@ -68,16 +71,16 @@ The number of main features on this webpage is **14:**
 6.	Javascript Google Account Sign-in button
 
 **Main [content]:**
-7.	Submit button for search entry form;
-8.	A Submit button that randomly produces a submitted search query for the user;
+1.	Submit button for search entry form;
+2.	A Submit button that randomly produces a submitted search query for the user;
 
 **Bottom [footer]:**
-9.	Google’s solicit to advertising link;
-10.	Google For Small Business link;
-11.	Link to a destination that explains how google search works;
-12.	Link to Google’s Privacy Policy;
-13.	Link to Google’s Terms & Conditions;
-14.	Javascript onClick drop-down-menu for google search settings;
+1.	Google’s solicit to advertising link;
+2.	Google For Small Business link;
+3.	Link to a destination that explains how google search works;
+4.	Link to Google’s Privacy Policy;
+5.	Link to Google’s Terms & Conditions;
+6.	Javascript onClick drop-down-menu for google search settings;
 
 - Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns): <br />
 
