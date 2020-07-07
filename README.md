@@ -241,6 +241,13 @@ before placing each in the desired area of the viewport
 # 3. Style <a name ="style"></a>
 - By this point, you should exclusively be working in CSS. Exceptions could be having to place two elements on the same line in order to [close a gap](https://github.com/B-Renz)
 - Ensure that fonts and images are properly sized, text borders and buttons are properly styled
+
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic1.png">
+
+Let's take the background colors off of the containers now:
+
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic1.png">
+
 - Ensure every content that the user is expected to 'click' on has a pointer over the element when hovering over it
 - Ensure that the layout and content are properly sized and moved according to each responsive layout
     - When you squeeze and stretch the width of the viewport window, does everything fall into place? How about when you squeeze and stretch the height? <br />
@@ -257,11 +264,13 @@ before placing each in the desired area of the viewport
 **{gif}**
 - If you are not satisfied with what you see, add the necessary [@media queries](https://css-tricks.com/css-media-queries/) that will satisfy your needs (Although, if done correctly, you should only be tapping into your inner perfectionist at this point -- modifications should be minimal)
 
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic2.png">
+
 # 5. Experience <a name ="experience"></a>
 - Now, include details that highlight your call to action
     - This would include your :active , :hover , :focus , :visited , and :required tags within your CSS selectors
 - Although a good HTML and CSS file should already be started with [accessibility](https://css-tricks.com/improving-accessibility-24-ways/) in mind, it is best to check and ensure that the accessibility of everything on your webpage is up to [today's standards](https://www.w3.org/TR/WCAG21/)
-- At this point we'd start throwing in our Javascript but for this project, Javascript will not needed
+- At this point we'd start throwing in our Javascript, but for this project, Javascript will not needed
 
 ## How to use?
 index1.html = [Layout](https://codepen.io/b-renz/pen/oNbEyop) <br />
