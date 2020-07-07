@@ -231,9 +231,12 @@ before placing each in the desired area of the viewport
 
 - Ensure that added content is within its parent container and without any overflow
     - If adjustments are needed, adjust them in your CSS file <br /> 
-    **{img}**
+
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/placepic1.png">
+
 - While in your CSS file, move your content (your [child elements](https://github.com/B-Renz)) in the desired area of the viewport <br />
-**{img}**
+
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/placepic2.png">
 
 # 3. Style <a name ="style"></a>
 - By this point, you should exclusively be working in CSS. Exceptions could be having to place two elements on the same line in order to [close a gap](https://github.com/B-Renz)
