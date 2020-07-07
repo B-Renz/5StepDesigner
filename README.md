@@ -205,17 +205,17 @@ html, body {
     FOOTERLINKS <!--Placeholder-->
 </div>
 ```
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic1.png" style="width:50%;height:auto"> <br />
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic1.png" width="33%" height="auto"> <br />
     
 - Color the HTML divs in CSS for a better visual of each section... <br />
 
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic2.png" style="width:50%;height:auto"> <br />
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic2.png" width="33%" height="auto"> <br />
 
 
 before placing each in the desired area of the viewport
  
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic3.png" style="width:50%;height:auto">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic3.png" width="33%" height="auto">
 
 
 - Now, check to confirm each section flex's and grids according to the size of the viewport <br />
