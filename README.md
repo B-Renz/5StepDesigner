@@ -176,23 +176,18 @@ html, body {
     <body>
         <div id="container">
             <div id="viewport">
-                <div id="navbar">
-                </div>
-                <div id="logo">
-                </div>
+                <div id="navbar"></div>
+                <div id="logo"></div>
                 <form>
-                    <div id="searchform">
-                    </div>
-                    <div id="shortcuts">
-                    </div>
+                    <div id="searchform"></div>
+                    <div id="shortcuts"></div>
                 </form>
-                <div id="footerlinks">
-                </div>
+                <div id="footerlinks"></div>
             </div>
         </div>
     </body>
 ```
-    - *hint: place temporary text in the divs in order to see them* <br />
+   *hint: place temporary text in the divs in order to see them* <br />
     **{gif}**
 - Color the HTML divs in CSS for a better visual of each section before placing each in the desired area of the viewport <br />
 **{img}**
