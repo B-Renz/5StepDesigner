@@ -34,7 +34,7 @@ Since this project only requires the design-side of developing a webpage, I figu
 I hope this repo can provide some use to those who’ve come across it. 
 
 ***Please Note:***
-This guide is intended for those who have a good foundation in HTML and CSS basics and some experience writing HTML and CSS within their personal editor (while hopefully using a live-feed server to see a preview of your markup file). If you understand the diference between flexbox and grid and when either would be of more use, following along should be cake (simple).
+This guide is intended for those who have a good foundation in HTML and CSS basics and some experience writing HTML and CSS within their personal editor (while hopefully using a live-feed server to see a preview of your markup file). If you understand the diference between [flexbox and grid](https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412) and when either would be of more use, following along should be cake (simple).
 
 ---
 
@@ -59,6 +59,8 @@ This is the time to figure out why the webpage exists, and what the webpage shou
 
 The **main function of this webpage is** to allow a user to submit their input (what they want to search on google.com) by typing their response and submitting (by clicking on a button, or by simply pressing Enter onto the keyboard of the user’s, after typing their response)
 
+
+
 The **main features of this webpage are** direct links to mutliple destinations. 
 The number of main features on this webpage is **14:**
 
@@ -82,7 +84,9 @@ The number of main features on this webpage is **14:**
 5.	Link to Google’s Terms & Conditions;
 6.	Javascript onClick drop-down-menu for google search settings;
 
-- Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns): <br />
+
+
+Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns): <br />
 
 **{gif}**
 
@@ -168,7 +172,26 @@ html, body {
 - **{WB}** Design the layout of your webpage <br />
 **{img}**
 - Build the parent containers for each section of your webpage in HTML <br />
-**{img}**
+```html
+    <body>
+        <div id="container">
+            <div id="viewport">
+                <div id="navbar">
+                </div>
+                <div id="logo">
+                </div>
+                <form>
+                    <div id="searchform">
+                    </div>
+                    <div id="shortcuts">
+                    </div>
+                </form>
+                <div id="footerlinks">
+                </div>
+            </div>
+        </div>
+    </body>
+```
     - *hint: place temporary text in the divs in order to see them* <br />
     **{gif}**
 - Color the HTML divs in CSS for a better visual of each section before placing each in the desired area of the viewport <br />
