@@ -188,7 +188,13 @@ html, body {
     </body>
 ```
    *hint: place temporary text in the divs in order to see them* <br />
-    **{gif}**
+    ```html
+    <div id="navbar">
+        NAVBAR <!--Placeholder-->
+    </div>
+    ```
+    <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutpic1.png"> <br />
+    
 - Color the HTML divs in CSS for a better visual of each section before placing each in the desired area of the viewport <br />
 **{img}**
 - Now, check to confirm each section flex's and grids according to the size of the viewport <br />
