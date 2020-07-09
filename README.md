@@ -88,7 +88,7 @@ The number of main features on this webpage is **14:**
 
 Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns): <br />
 
-**{gif}**
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/holygrail.gif">
 
 ## Personal Rules of Thumb:
 - It is always best to design according to what media most of your viewers will be experiencing your webpage on. Now-a-days, the mobile phone is one of the most widely used medias, alongside personal tablets. Because of this, it's usually best practice to utilize a **[mobile-first](https://designshack.net/articles/mobile/mobilefirst/) approach** to design
@@ -219,7 +219,8 @@ html, body {
 
 
 - Now, check to confirm each section flex's and grids according to the size of the viewport <br />
-**{gif}**
+
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/layoutflex.gif">
 
 # 2. Place <a name ="place"></a>
 - Start adding your content within the parent divs you just made in your HTML file
@@ -249,9 +250,16 @@ Let's take the background colors off of the containers now:
 <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic2.png" width="33%" height="auto">
 
 - Ensure every content that the user is expected to 'click' on has a pointer over the element when hovering over it
+
+   | :heavy_check_mark: | :x: |
+   | --- | --- |
+   | <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/yespointer.gif"> | <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/nopointer.gif"> |
+   
 - Ensure that the layout and content are properly sized and moved according to each responsive layout
     - When you squeeze and stretch the width of the viewport window, does everything fall into place? How about when you squeeze and stretch the height? <br />
-    **{gif}**
+    
+    <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/placeflex.gif">
+    
 - Color anything you'd like <br />
 
 <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/stylepic3.png" width="33%" height="auto">
@@ -269,7 +277,9 @@ Let's take the background colors off of the containers now:
 | <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic0.png" width="100%"> | <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic01.png" width="100%"> |
 
 - Check dev-tools and click this icon to see how your webpage looks on each device: <br />
-**{gif}**
+
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/webdev.gif">
+
 - If you are not satisfied with what you see, add the necessary [@media queries](https://css-tricks.com/css-media-queries/) that will satisfy your needs (Although, if done correctly, you should only be tapping into your inner perfectionist at this point -- modifications should be minimal)
 
 <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/refinepic3.png" width="33%" height="auto">
@@ -277,6 +287,12 @@ Let's take the background colors off of the containers now:
 # 5. Experience <a name ="experience"></a>
 - Now, include details that highlight your call to action
     - This would include your :active , :hover , :focus , :visited , and :required tags within your CSS selectors
+    
+    <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/exp3.gif"> <br />
+    <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/exp1.gif"> <br />
+    <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/exp2.gif"> <br />
+    
+    
 - Although a good HTML and CSS file should already be started with [accessibility](https://css-tricks.com/improving-accessibility-24-ways/) in mind, it is best to check and ensure that the accessibility of everything on your webpage is up to [today's standards](https://www.w3.org/TR/WCAG21/)
 - At this point we'd start throwing in our Javascript, but for this project, Javascript will not needed
 
