@@ -86,7 +86,7 @@ The number of main features on this webpage is **14:**
 
 
 
-Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://css-tricks.com/books/fundamental-css-tactics/holy-grail-layout-5-lines-css/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns): <br />
+Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://flexbox.ninja/demos/holy-grail-layout/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns): <br />
 
 <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/holygrail.gif">
 
@@ -314,10 +314,31 @@ Go ahead and check out each finished step in [codepen](https://codepen.io/) by c
 Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
 
 ## Credits
+Thanks Codepen! You make it easy to share my design projects and ideas!
+[codepen.io](https://codepen.io/)
+
+Thanks Font Awesome! You make it easy to use icons (you also have an impressive catalogue)!
+[fontawesome](https://fontawesome.com/)
+
+Thanks Amazon! Your AWS makes it easy to display images and other content on my webpages!
+[amazon web services](https://aws.amazon.com/)
+
 Thanks CSS-Tricks! You're one of my favorite resources! 
 [Complete Guide to Grid Layout](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-#### Anything else that seems useful
+## References / Links
+
+Medium: *[Geginner's Guide to Grid and Flexbox](https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412)* by *Ayush Gupta*<br />
+Flexbox Ninja: *[Holy Grail Layout](https://flexbox.ninja/demos/holy-grail-layout/ )*<br />
+Design Shack: *[Mobile First Design: Why It's Great and Why It Sucks](https://designshack.net/articles/mobile/mobilefirst/)*<br />
+QT.io: *[The Style Sheet Syntax](https://doc.qt.io/Qt-5/stylesheet-syntax.html)*<br />
+Stackoverflow: *[How to Display Two Markdown Code Blocks Side by Side](https://stackoverflow.com/questions/35381425/how-to-disply-two-markdown-code-blocks-side-by-side)*<br />
+Creative Market: *[What Do Design Client's Mean When They Say 'Make it Pop'?](https://creativemarket.com/blog/design-clients-make-it-pop) by *Kristan Vitale*<br />
+CSS Tricks: *[CSS Media Queries & Using Available Space](https://css-tricks.com/css-media-queries/)* by *Chris Coyier* <br />
+            *[Improving the Accessibility of 24 Ways](https://css-tricks.com/improving-accessibility-24-ways/)* by *Paul Roberty Lloyd*<br />
+W3.org: *[Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/)*<br />
+
+
 
 ## License
 A short snippet describing the license (MIT, Apache etc)
