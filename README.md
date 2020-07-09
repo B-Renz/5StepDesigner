@@ -310,8 +310,9 @@ Go ahead and check out each finished step in [codepen](https://codepen.io/) by c
         - [amazon web services](https://aws.amazon.com/) (aws): **Why?**   Store your images here in a public bin and use this new location for your `href=""`. Now, everyone can see the images on your webpage (like the Google logo we used in this project)<br />
 
 ## Contribute
+[Contributing Guidelines](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md)
 
-Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
+Hey! Want to contribute? Just let me know! I love learning from other, so if you have some pointers, please don't hesitate to dm me!
 
 ## Credits
 Thanks Codepen! You make it easy to share my design projects and ideas!<br />
