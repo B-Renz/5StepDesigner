@@ -88,7 +88,7 @@ The number of main features on this webpage is **14:**
 
 Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://flexbox.ninja/demos/holy-grail-layout/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns): <br />
 
-<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/holygrail.gif">
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/holygrail1.gif">
 
 ## Personal Rules of Thumb:
 - It is always best to design according to what media most of your viewers will be experiencing your webpage on. Now-a-days, the mobile phone is one of the most widely used medias, alongside personal tablets. Because of this, it's usually best practice to utilize a **[mobile-first](https://designshack.net/articles/mobile/mobilefirst/) approach** to design
