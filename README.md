@@ -335,7 +335,7 @@ QT.io: *[The Style Sheet Syntax](https://doc.qt.io/Qt-5/stylesheet-syntax.html)*
 Stackoverflow: *[How to Display Two Markdown Code Blocks Side by Side](https://stackoverflow.com/questions/35381425/how-to-disply-two-markdown-code-blocks-side-by-side)*<br />
 Creative Market: *[What Do Design Client's Mean When They Say 'Make it Pop'?](https://creativemarket.com/blog/design-clients-make-it-pop)* by *Kristan Vitale*<br />
 CSS Tricks: *[CSS Media Queries & Using Available Space](https://css-tricks.com/css-media-queries/)* by *Chris Coyier* <br />
-            *[Improving the Accessibility of 24 Ways](https://css-tricks.com/improving-accessibility-24-ways/)* by *Paul Roberty Lloyd*<br />
+CSS Tricks: *[Improving the Accessibility of 24 Ways](https://css-tricks.com/improving-accessibility-24-ways/)* by *Paul Roberty Lloyd*<br />
 W3.org: *[Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/)*<br />
 
 ## License
