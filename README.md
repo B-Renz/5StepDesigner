@@ -86,7 +86,7 @@ The number of main features on this webpage is **14:**
 
 
 
-Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://flexbox.ninja/demos/holy-grail-layout/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (columns): <br />
+Now that I've decided on my main features and the vertical positions of their respected sections, I can then move onto determining if I need any horizontal-sections (columns) as well. So far, our layout is beginning to look a lot like the **[Holy Grail Layout](https://flexbox.ninja/demos/holy-grail-layout/)**, with just one exception: Our **Main [content]** (our middle-vertical section) will only consist of one horizontal-section and opt-out of the vertical-menu and ad-space sections (sidebars): <br />
 
 <img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/holygrail1.gif">
 
