@@ -312,7 +312,7 @@ Go ahead and check out each finished step in [codepen](https://codepen.io/) by c
 ## Contribute
 [Contributing Guidelines](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md)
 
-Hey! Want to contribute? Just let me know! I love learning from other, so if you have some pointers, please don't hesitate to dm me!
+Hey! Want to contribute? Just let me know! I love learning from others, so if you have some pointers, please don't hesitate to dm me!
 
 ## Credits
 Thanks Codepen! You make it easy to share my design projects and ideas!<br />
