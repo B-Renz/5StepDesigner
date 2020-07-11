@@ -341,4 +341,4 @@ W3.org: *[Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21
 
 ## License
 
-MIT © [Yourname]()
+MIT © [Renzy](https://github.com/B-Renz)
