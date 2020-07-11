@@ -1,5 +1,5 @@
 
-**{img}**
+<img src="https://5stepdesigner.s3-us-west-2.amazonaws.com/coverimagemain.jpg" width="1200px" height="auto">
 
 # The 5 Step Designer
 The first 5 steps to designing almost any website
